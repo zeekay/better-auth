@@ -1,5 +1,28 @@
 # Changelog
 
+## 0.11.3
+
+- Lazy route registration for reduced memory usage (#302)
+
+## 0.11.2
+
+- fix: return dates as numbers from customTransformOutput (#298)
+- fix(adapter): match composite index fields by real names (#297)
+
+## 0.11.1
+
+- chore: add missing generated types
+
+## 0.11.0
+
+- fix: prevent proxy compression from breaking server-side token fetch (#295)
+- feat: migrate to Better Auth 1.5 (#292) @wiesson @onmax
+
+## 0.10.13
+
+- fix: add optional chaining for ctx.path in crossDomain before-hooks (#279)
+- fix(package): remove spurious react-dom peer dependency (#278) @ramonclaudio
+
 ## 0.10.12
 
 - fix(cross-domain): don't inject callbackURL when not provided (#276)
